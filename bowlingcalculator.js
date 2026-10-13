@@ -21,10 +21,6 @@ function calculateBowlingScore(bowlingRolls) {
 
     console.log("Final Score: " + totalScore);
 
-    if (totalScore === 300) {
-        console.log("Perfect Game!");
-    }
-
     return totalScore;
 }
 
